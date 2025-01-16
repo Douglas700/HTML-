@@ -1,0 +1,37 @@
+
+html{
+    height: 100h;
+}
+
+P{
+    font-weight: bold;
+}
+
+span{
+    color: rgb(43, 204, 43);
+}
+
+H1{
+    border: black 2px solid;
+    margin: 2px;
+    padding: 25px;
+    font-size: 50px;
+    width: 50% ;
+    height: 20vh;
+    text-align: center;
+}
+
+Li{
+    font-size: 20px;
+}
+a{
+    font-size: 1em;
+} 
+
+P{
+    font-size: 2rem ;
+
+}
+Img{
+    width: 300px;
+}
