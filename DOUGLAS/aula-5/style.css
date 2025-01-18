@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor_1: #A6756A;
+    --cor_2: #BFBD99;
+    --cor_3: #BABCBF;
+    --cor_4: #6C6F73;
+    --cor_5: #343840 ;
+    /* https://color.adobe.com/pt/create/color-wheel 
+    site para jogar a imagem para selecionar as cores */ 
+}
+
+h1{
+
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    font-family: "Bebas Neue"; 
+    text-align: center;
+    font-size: 50px;
+    color: var(--cor_2);  
+    /*
+    #A6756A 
+    #BFBD99
+    #BABCBF
+    #6C6F73
+    #343840
+    */ 
+}
+h2{ 
+    text-shadow: 5px 5px 5px black;
+    font-family: "Bebas Neue"; 
+    font-size: 35px;
+    color: var(--cor_3); 
+    margin: 0px 0px 0px 25px;
+    /*externo*/ 
+    padding: 0px 0px 0px 25px; 
+    /*interno */ 
+}
+
+img{
+    border: 5px solid; 
+}
+
+body{
+    height:100%;
+    background-image: linear-gradient( 
+        var(--cor_3), var(--cor_2)
+    );
+}
+    .centralizar{
+            text-align: center;
+    }
+
+    .paragrafo-35{ 
+        color: aqua;
+    }
+
+    .paragrafo-41{ 
+        color: aqua;
+    }
+    .paragrafo-47{
+        color: aqua;
+    }
+
+    .paragrafo-57{
+        color: aqua;
+    }
+    .paragrafo-63{
+        color: aqua;
+    }
+
+    .foto-mulher{
+        border-color: aqua;
+    }
