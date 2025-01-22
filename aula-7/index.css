@@ -1,0 +1,97 @@
+:root{
+    --cor_1: #f3f3f3;
+    --cor_2: #f14217;
+    --cor_3: #c0b1b1;
+    --cor_4: #afc6e4;
+    --cor_5: #99b5ee;
+    /* https://color.adobe.com/pt/create/color-wheel 
+    site para jogar a imagem para selecionar as cores */ 
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100%;
+    background-color: var(--cor_4);
+    }
+        
+
+header{
+    background-color: #78acf0;
+    display: flex; 
+    justify-content:space-between;
+    padding-inline: 30px;
+    align-items: center;
+    border: solid 2px ;
+}
+
+ul{
+    display:flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+main{
+    background-color: var(--cor_3);
+    width:90%;
+    margin:auto;
+    margin-block: 10px;
+    border-radius: 10px;
+}
+
+section{
+        margin: 2rem;
+        
+}
+section>h2{
+    text-align: center;
+    padding-block: 16px;
+}
+
+footer{
+    background-color: var(--cor_2);
+
+}
+
+p{
+    color: #f3f3f3;
+}
+
+div{
+    border: 2px solid black; /* Definindo a borda */
+    display: flex;
+}
+
+.Habilidade-1{
+    color: #f14217;
+}
+
+.Habilidade-2{
+    color: #f14217; 
+}
+
+article {
+    width: 40%;
+    padding: 10px;
+    border:solid 2px;
+}
+aside {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    margin: 20;               /* Remove a margem padrão do body */
+}
+
+.projetos-2{
+    text-align: center;
+}
+
