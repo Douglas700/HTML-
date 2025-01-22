@@ -1,0 +1,19 @@
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center  
+}
+
+ul{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+
+}
